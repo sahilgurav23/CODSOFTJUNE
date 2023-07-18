@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Currency_Converter</string>
+    <string name="currency_exchange">Currency Exchange</string>
+    <string name="btc">BTC</string>
+    <string name="usd">USD</string>
+    <string name="LINE">|</string>
+    <string name="buy">Buy</string>
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FBFBFB"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textAlignment="textStart"
+        android:text="Enter Notification Title"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bgm_edittext"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:textAlignment="center"
+        android:id="@+id/title"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"
+        android:textAlignment="textStart"
+        android:text="Enter Notification Content"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/content"
+        android:textAlignment="center"
+        android:textSize="23sp"
+        android:background="@drawable/bgm_edittext"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"/>
+    
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Notification"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:id="@+id/clickbt"
+        android:textSize="30sp"/>
+
+
+</LinearLayout>
